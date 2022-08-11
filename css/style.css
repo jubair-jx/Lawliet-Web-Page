@@ -1,0 +1,119 @@
+/*--Gooogle Fonts-*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;1,600&family=Poppins:wght@300;400&display=swap');
+/*Font*/
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*---------------Navbar Part----------------*/
+
+.navbar{
+    background-color: #FFFFFF;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.logo a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    
+}    
+.menu{
+    margin-left: 250px;
+}
+.menu ul li a{
+    margin-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #2D2F30;
+}
+.search a{
+    margin-right: 280px;
+    color:#2D2F30;
+}
+/*---------------Navbar Part----------------*/
+/*---------------Banner Part----------------*/
+#banner{
+    height: 630px;
+    width: 100%;
+    background-color: #f9f9f9;
+    position: relative;
+}
+.banner_txt{
+    margin: 70px 50px;
+}
+.banner_txt h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 800;
+    color: #094B72;
+}
+.banner_txt p{  
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #4F4F4F;
+}
+.banner_txt .btns{
+    margin-top: 40px;
+}
+.banner_txt .btns a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 16px 18px;
+    background-color: #094B72;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    transition: .3s;
+    font-size: 13px;
+    font-weight: 700;
+}
+.banner_txt span{
+    position: relative;
+    top: 50px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    color:#8B8C8C;
+}
+.banner_txt .btns a:hover{
+    background-color: transparent;
+    border: 1px solid #094B72;
+    color: #094B72;
+}
+.banner_img img{
+    position: absolute;
+    bottom: 5px;
+    height: 690px;
+    width: 500px;
+    right: 200px;
+}
+.icon1{
+    margin-left: 45px;
+    
+}
+.icon2{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.icon1 img{
+    padding-right: 51px;
+}
+.icon2 img{
+    padding-right: 21px;
+}
+/*---------------Banner Part----------------*/
