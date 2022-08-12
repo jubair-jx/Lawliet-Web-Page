@@ -1,7 +1,8 @@
 /*--Gooogle Fonts-*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;1,600&family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,500;0,600;1,400&family=Poppins:wght@200;400;600;700;800&display=swap');
 /*Font*/
 /* font-family: 'Playfair Display', serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
 font-family: 'Poppins', sans-serif;*/
 *{
     margin: 0;
@@ -15,6 +16,14 @@ font-family: 'Poppins', sans-serif;*/
     height: 60px;
     display: flex;
     justify-content: space-around;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    transition: .4s;
+    box-shadow: 2px 2px 16px 0px rgba(0,0,0,0.04);
+-webkit-box-shadow: 2px 2px 16px 0px rgba(0,0,0,0.04);
+-moz-box-shadow: 2px 2px 16px 0px rgba(0,0,0,0.04);
 }
 .logo{
     display: flex;
@@ -45,7 +54,7 @@ font-family: 'Poppins', sans-serif;*/
 /*---------------Navbar Part----------------*/
 /*---------------Banner Part----------------*/
 #banner{
-    height: 630px;
+    height: 627px;
     width: 100%;
     background-color: #f9f9f9;
     position: relative;
@@ -116,4 +125,313 @@ font-family: 'Poppins', sans-serif;*/
 .icon2 img{
     padding-right: 21px;
 }
-/*---------------Banner Part----------------*/
+/*---------------Banner Part----------------*/ 
+/*---------------Hero Section Part----------------*/ 
+#hero_part{
+    height: 600px;
+    width: 100%;
+    background-color: #F2FCFF;
+}
+.hero_txt{
+    margin: 90px 30px;
+}
+.hero_txt h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2D2F30;
+}
+.hero_txt p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: #8B8C8C;
+    margin-top: 40px;
+}  
+.card_part{
+    display: inline-block;
+    margin-top: 35px;    
+}  
+.card_item{
+    height: 245px;
+    width: 240px;
+    background-color: #FCFCFC;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-left: 20px;
+    box-shadow: 2px 3px 17px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 2px 3px 17px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 2px 3px 17px 0px rgba(0,0,0,0.18);
+}
+.card_item .rigth{
+    margin-left: 30px;
+}
+.card_item .img h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.card_item .img p{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8C8C;
+    margin-top: 10px;
+}
+#bg_part{
+    height: 300px;
+    width: 100%;
+    background-image: url(../images/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.bg_txt h3{
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
+.bg_txt p{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* .divider{
+    height: 50px;
+    border-left: 1px solid #FFFFFF;
+} */
+.bg_item{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 200px;
+
+}
+.divider{
+    height: 70px;
+    border-left: 1px solid #FFFFFF;
+    display: inline-block;
+    
+}
+.number h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+.number span{
+    font-size: 13px;
+    font-weight: 200;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*---------------Hero Section Part----------------*/ 
+/*---------------Testimonial Section Part----------------*/ 
+#test{
+    height: 500px;
+    width: 100%;
+    background-color: #F4FBFF;
+}
+.test_txt h3{
+    color: #2D2F30;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    padding: 40px 10px;
+}
+.test_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 120px;
+}
+.test_card{
+    height: 180px;
+    width: 500px;
+    background-color: #fefefe;
+    margin: 10px 100px;
+    position: relative;
+    box-shadow: 2px 3px 17px 0px rgba(0, 0, 0, 0.146);
+    -webkit-box-shadow: 2px 3px 17px 0px rgba(0, 0, 0, 0.119);
+    -moz-box-shadow: 2px 3px 17px 0px rgba(0, 0, 0, 0.1);
+}
+.test_card h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #151617;
+    text-align: center;
+    padding: 20px 10px;
+}
+.test_card p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;  
+    text-align: center;
+    width: 502px;
+}
+.square{
+    height: 40px;
+    width: 40px;
+    background-color: #fefefe;
+    left: 240px;
+    position: absolute;
+    top: 160px;
+    transform: rotate(45deg);
+}
+.images img{
+   margin-left: 130px;
+}
+.test_card .test_txt{
+    display: inline-block;
+    padding-right:50px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.test_card .test_txt  h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.test_card .test_txt span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+/*---------------Testimonial Section Part----------------*/ 
+/*---------------Questions Section Part----------------*/
+#ques{
+    height: 355px;
+    width: 100%;
+    background-color: #ffffff;
+}  
+.ques_item{
+    margin: 50px 70px;
+}
+.ques_item h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #2D2F30;
+    margin-left: 20px;
+}
+.ques_item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400; 
+    text-align: center;
+    width: 554px;
+    margin: 15px 55px;
+}
+.ques_item .btns{
+    padding: 40px 60px;
+}
+.ques_item .btns a{
+    height: 50px;
+    width: 50px;
+    border: 1px solid #094B72;
+    border-radius: 7px;
+    padding: 11px 19px;
+    background-color: #0F6E8C;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    transition: .3s;
+}
+.ques_item .btns a i{
+    margin-right: 15px;
+}
+.ques_item .btns a:hover{
+    background-color: transparent;
+    border: 2px solid #094B72;
+    color: #094B72;
+}
+
+.ques_img img{
+    height: 355px;
+    width: 355px;
+    margin-left: 305px;
+    border-radius: 0% 0% 0% 15%;
+}    
+/*---------------Questions Section Part----------------*/ 
+/*---------------last Section Part----------------*/ 
+#last{
+    height: 300px;
+    width: 100%;
+    background-color: #0F6E8C;
+}
+.last_logo img{
+    margin: 60px 60px;
+}
+.last_part{
+
+}
+.last_part h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 29px;
+    color: #ffffffe3;
+}
+.last_item{
+    margin: 70px 100px;
+}
+.last_menu ul li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+/*---------------last Section Part----------------*/ 
+/*---------------Footer Section Part----------------*/ 
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #0e5469;
+}
+.footer_txt{
+    padding: 15px 65px;
+}
+.footer_txt span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #eaeaeadb;
+    
+}
+.footer_icon{
+    margin: 7px 200px;
+}
+.footer_icon ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+    
+}
+.footer_icon ul li a i{
+    height: 40px;
+    width: 40px;
+    background-color: #f9f8f923;
+    border: 1 solid #F9F8F9;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+/*---------------Footer Section Part----------------*/ 
